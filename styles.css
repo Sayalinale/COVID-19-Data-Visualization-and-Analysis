@@ -1,0 +1,230 @@
+body {
+  margin: 0px;
+  overflow-x: hidden;
+}
+
+.Header_section {
+  background: #fff;
+  text-align: center;
+  border-bottom: 2px solid lightskyblue;
+}
+
+img.logo_image {
+  width: 250px;
+}
+
+h3.map_heading {
+  text-align: center;
+}
+
+.country {
+  fill: #e69557f2;
+  stroke: #87ceeb;
+  stroke-opacity: 0.5;
+}
+
+.sphere {
+  fill: #123461;
+}
+
+.country:hover {
+  fill: #CC5500;
+  stroke: #ccc;
+  stroke-opacity: 2;
+}
+
+.totalCases_section {
+  display: flex;
+}
+
+.Donut-column {
+  width: 40%;
+  padding-right: 20px;
+}
+
+.chart-column {
+  width: 60%;
+}
+
+/* Style the chart container */
+#chart-container {
+  border: 1px solid #ccc;
+  height: 400px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 16px;
+}
+
+/* Style the dropdown */
+select {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 48%;
+  margin-left: auto;
+  margin-right: 38px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Style the axis */
+.axis text {
+  font-family: sans-serif;
+  font-size: 11px;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+/* Style the line */
+.line {
+  fill: none;
+  stroke: #3f51b5;
+  stroke-width: 2px;
+}
+
+/* Define CSS styles for the chart */
+.vaccine_chart {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  width: 500px;
+  height: 300px;
+  margin: auto;
+}
+
+.dot {
+  fill: #f00;
+}
+
+
+
+.vaccinate_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background: #f5f5dc5e;
+}
+
+.column-left,
+.column-right {
+  width: 48%;
+  margin-bottom: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+.column-left h3,
+.column-right h3 {
+  font-size: 20px;
+  margin-top: 0;
+}
+
+.vaccinate_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  background: #f2fff063;
+}
+
+.loliipop-column,
+.deathchart-column {
+  width: 100%;
+  height: 380px;
+}
+
+.vaccine_chart {
+  background-color: #f1f1f1;
+  height: 100%;
+  padding: 5px;
+}
+
+.SectionMap {
+  padding: 20px;
+  background: #f5f5dc5e;
+}
+
+.Country_cases {
+  padding: 20px;
+  text-align: center;
+}
+
+.line {
+  fill: none;
+  stroke: #8dd3c7;
+  stroke-width: 2px;
+}
+
+label {
+  margin-left: 78px;
+  text-align: center;
+}
+
+
+.scatter_plot_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SectionGDPCases {
+  padding: 20px;
+}
+
+select#country-select_GDP {
+  margin: auto;
+  width: 30%;
+}
+
+.SectionGDPCases {
+  padding: 20px;
+}
+
+.GDP_section {
+  text-align: center;
+  font-size: 20px;
+}
+
+
+
+
+
+.axis text {
+  font-size: 14px;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.dot {
+  stroke: #000;
+  stroke-width: 1px;
+}
+
+.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 100px;
+  height: 28px;
+  padding: 2px;
+  font: 14px sans-serif;
+  background: lightsteelblue;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+}
